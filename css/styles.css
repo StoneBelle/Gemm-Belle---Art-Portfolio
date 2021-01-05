@@ -1,0 +1,188 @@
+body{
+  background-color: rgb(36 35 35);
+  margin: 0;
+}
+
+p{
+  line-height: 1.6;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+}
+
+/* Text */
+.text-title-part-1{
+  font-size: 30px;
+}
+
+.text-title-part-2{
+  font-size: 20px;
+}
+
+.img-description{
+  font-size: 16px;
+}
+
+.title-font{
+  color: #c7a865;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+}
+
+.side-title{
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.gemm{
+  font-size: 40px;
+}
+
+.big-text{
+  font-size: 40px;
+}
+
+.xs-text{
+  font-size: 0.8rem;
+}
+.sm-text{
+  font-size: 1.0rem;
+}
+
+.md-text{
+  font-size: 28px;
+}
+
+.sub-title{
+  font-size: 18px;
+}
+
+.modal-title{
+  font-family: 'Montserrat', sans-serif;
+  color: #000;
+}
+
+.modal-text{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  color: black;
+}
+
+.sidebar{
+  background-color: #323232;
+  height: 100%;
+  width: 9em;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  padding: 20px 0 0;
+}
+
+.sidebar-link{
+  color: #888888;
+  font-size: 15px;
+}
+
+.sidebar-link:hover{
+  color: #fff;
+  text-decoration: none;
+}
+
+.about-btn{
+  background-color: #c7a865;
+}
+
+.about-btn:hover{
+  background-color: #fff;
+}
+
+.about-link{
+  color: #fff;
+}
+
+.about-link:hover{
+  color: #000;
+  text-decoration: none;
+}
+
+.link-box{
+  margin: 2.5rem 0;
+}
+
+.main {
+  background-color: #242323;
+  margin: 0 0 0 8rem; /* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0 2rem;
+  height: 100%;
+}
+
+.title-box{
+  padding: 2rem 0;
+}
+
+.sub-title-box{
+  padding: 1rem 0;
+}
+
+.about-btn-box{
+  padding: 10rem 0 0 0 ;
+}
+
+/* Images */
+.images{
+  /* margin-top: 7rem; */
+}
+
+.constant-size{
+  width: 12rem;
+}
+
+.zoom {
+  transition: transform .2s; /* Animation */
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  transform: scale(1.18); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.copyright{
+  font-size: 12px;
+}
+
+.email{
+  color: #fff;
+  text-decoration: underline;
+}
+
+.email:hover{
+  color: #c7a865;
+  text-decoration: underline;
+}
+
+/*************************************************************************************************/
+/*                                  Pseudo Class Selectors                                       */
+/*************************************************************************************************/
+
+::-webkit-scrollbar {
+    background-color: #242323 ;
+    width: 14px;
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #cccccc;
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
+}
